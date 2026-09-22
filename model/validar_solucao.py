@@ -10,3 +10,4 @@ def validar_solucao(solucao: List[str], catalogo: CatalogoAlimentos,
     valida = all(v == 0 for v in viol.values())
     return valida, viol
 
+
